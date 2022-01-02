@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://betacssjs.chesscomfiles.com/bundles/web/images/webgl_data/three-d/board/textures/board_bases.aa2e4c86.jpg" />
+    
+    <title>Chess Board Layout</title>
+    <style>
+        body {
+            margin-left:24rem;
+           overflow:hidden;
+       }
+        .square1 {
+
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(241, 218, 218, 0.884);
+        }
+        .square2 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(165, 103, 103, 0.884);
+        }
+        .square3 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(241, 218, 218, 0.884);
+        }
+        .square4 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(165, 103, 103, 0.884);
+        }
+        .square5 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(241, 218, 218, 0.884);
+        }
+        .square6 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(165, 103, 103, 0.884);
+        }
+        .square7 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(241, 218, 218, 0.884);
+        }
+        .square8 {
+            height:4.5rem;
+            width:4.5rem;
+            background: rgba(165, 103, 103, 0.884);
+        }
+        #main {
+            display:flex;
+        }
+        img {
+            height:4rem;
+            width:4rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="number"style="display:flex; gap:3.5rem; margin-top:-30px; margin-bottom:-10px">
+        <h1 style="margin-left:40px">a</h1>
+        <h1>b</h1>
+        <h1>c</h1>
+        <h1>d</h1>
+        <h1>e</h1>
+        <h1>f</h1>
+        <h1>g</h1>
+        <h1>h</h1>    
+    </div>
+    <div id="main">
+        
+        <div >
+        <h1>8</h1>
+        <h1 style="padding-top: 10px;">7</h1>
+        <h1 style="padding-top: 10px;">6</h1>
+        <h1 style="padding-top: 10px;">5</h1>
+        <h1 style="padding-top: 20px;">4</h1>
+        <h1 style="padding-top: 20px;">3</h1>
+        <h1 style="padding-top: 10px;">2</h1>
+        <h1 style="padding-top: 10px;">1</h1>
+    </div>
+        <div>
+                 
+    <div class="square1"><img src = "1.png"/></div>
+    <div class="square2"><img src ="2.png"/></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"><img src = "3.png"/></div>
+    <div class="square8"><img src="4.png"/></div>
+<h1 style="margin-top:-10px; margin-left:20px; margin-bottom: -30px;">a</h1>
+</div>
+
+<div>
+    <div class="square2"><img src="5.png"/></div>
+    <div class="square1"><img src ="2.png"/></div>
+    <div class="square4"></div>
+    <div class="square3"></div>
+    <div class="square6"></div>
+    <div class="square5"></div>
+    <div class="square8"><img src = "3.png"/></div>
+    <div class="square7"><img src = "6.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px ;margin-bottom: -30px;">b</h1>
+</div>
+
+<div>
+    <div class="square1"><img src = "7.png"/></div>
+    <div class="square2"><img src ="2.png"/></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"><img src = "3.png"/></div>
+    <div class="square8"><img src = "8.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px;margin-bottom: -30px;">c</h1>
+</div>
+<div>
+    <div class="square2"><img src ="9.png"></div>
+    <div class="square1"><img src ="2.png"/></div>
+    <div class="square4"></div>
+    <div class="square3"></div>
+    <div class="square6"></div>
+    <div class="square5"></div>
+    <div class="square8"><img src = "3.png"/></div>
+    <div class="square7"><img src = "10.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px;margin-bottom: -30px;">d</h1>
+</div>
+<div>
+    <div class="square1"><img src = "11.png"></div>
+    <div class="square2"><img src ="2.png"/></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"><img src = "3.png"/></div>
+    <div class="square8"><img src = "12.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px;margin-bottom: -30px;">e</h1>
+</div>
+<div>
+    <div class="square2"><img src = "7.png"/></div>
+    <div class="square1"><img src ="2.png"/></div>
+    <div class="square4"></div>
+    <div class="square3"></div>
+    <div class="square6"></div>
+    <div class="square5"></div>
+    <div class="square8"><img src = "3.png"/></div>
+    <div class="square7"><img src = "8.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px;margin-bottom: -30px;">f</h1>
+</div>
+<div>
+    <div class="square1"><img src="5.png"/></div>
+    <div class="square2"><img src ="2.png"/></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"><img src = "3.png"/></div>
+    <div class="square8"><img src = "6.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px;margin-bottom: -30px;">g</h1>
+</div>
+<div>
+    
+    <div class="square2"><img src = "1.png"/></div>
+    <div class="square1"><img src ="2.png"/></div>
+    <div class="square4"></div>
+    <div class="square3"></div>
+    <div class="square6"></div>
+    <div class="square5"></div>
+    <div class="square8"><img src = "3.png"/></div>
+    <div class="square7"><img src="4.png"/></div>
+    <h1 style="margin-top:-10px; margin-left:20px">h</h1>
+</div>
+<div>
+    <h1>8</h1>
+    <h1 style="padding-top: 10px;">7</h1>
+    <h1 style="padding-top: 10px;">6</h1>
+    <h1 style="padding-top: 10px;">5</h1>
+    <h1 style="padding-top: 20px;">4</h1>
+    <h1 style="padding-top: 20px;">3</h1>
+    <h1 style="padding-top: 10px;">2</h1>
+    <h1 style="padding-top: 10px;">1</h1>
+</div>
+</div>
+</body>
+</html>
